@@ -1,0 +1,13 @@
+.lightOn {
+    background-image: url('gif/on.gif');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+}
+
+.lightOff {
+    background-image: url('gif/off.gif');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+}

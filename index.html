@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light bulb</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    <div style="display: flex; justify-content: center; align-items: center; height: 500px;">
+    
+    <div style=" vertical-align: top; display: inline-block; width: 150px;">
+        <h2 style="margin: 10px;">Normal Light</h2>
+        <div class="lightOff" id="light1"></div>
+        <span style="display: block; margin: 5px;">
+            <button onclick="turnOnLight('light1')">Please click to ON</button>
+        </span>
+        <span style="display: block; margin: 5px;"></span>
+            <button onclick="turnOffLight('light1')">Please click to OFF</button>
+        </span>
+    </div>
+    
+    <div style=" vertical-align: top; display: inline-block; width: 150px;" class="container">
+        <h2 style="margin: 10px;">Slow Blink Light</h2>
+        <div class="lightOff" id="light2"></div>
+        <span style="display: block; margin: 5px;">
+            <button class="light2">Please click to ON</button>
+        </span>
+        <span style="display: block; margin: 5px;"></span>
+            <button onclick="turnOfflight2()">Please click to OFF</button>
+        </span>
+    </div>
+
+    <div style=" vertical-align: top; display: inline-block; width: 150px;">
+        <h2 style="margin: 10px;">Fast Blink Light</h2>
+        <div class="lightOff" id="light3"></div>
+        <span style="display: block; margin: 5px;">
+            <button class="light3">Please click to ON</button>
+        </span>
+        <span style="display: block; margin: 5px;"></span>
+            <button onclick="turnOfflight3()">Please click to OFF</button>
+        </span>
+    </div>
+    
+    </div>
+    
+
+</body>
+</html>
